@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZendeskSDKHTTPClient
 import Foundation
 import Swift
@@ -13,11 +13,11 @@ public enum HTTPHeader : Swift.Hashable {
   case acceptEncoding(Swift.String)
   case authorization(Swift.String)
   case other(field: Swift.String, value: Swift.String)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ZendeskSDKHTTPClient.HTTPHeader, b: ZendeskSDKHTTPClient.HTTPHeader) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ZendeskSDKHTTPClient.HTTPHeader, b: ZendeskSDKHTTPClient.HTTPHeader) -> Swift.Bool
 }
 public enum HTTPError : Foundation.LocalizedError {
   case noResponse
@@ -47,17 +47,17 @@ public struct HTTPClientBuilder {
 public enum HTTPClientError : Swift.Error {
   case invalidBaseURL
   public static func == (a: ZendeskSDKHTTPClient.HTTPClientError, b: ZendeskSDKHTTPClient.HTTPClientError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum HTTPMethodWithBody : Swift.String {
   case POST
   case PUT
   case DELETE
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -66,8 +66,8 @@ public enum HTTPMethodWithoutBody : Swift.String {
   case GET
   case HEAD
   case OPTIONS
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
