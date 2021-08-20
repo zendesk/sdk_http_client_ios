@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKHTTPClient"
-  s.version      = "0.4.1"
+  s.version      = "0.4.2"
   s.summary      = "ZendeskSDKHTTPClient #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/documentation/zendesk-sdks/"
   s.license      = {
