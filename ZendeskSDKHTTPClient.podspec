@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKHTTPClient"
-  s.version      = "0.5.0"
+  s.version      = "0.5.1"
   s.summary      = "ZendeskSDKHTTPClient #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/documentation/zendesk-sdks/"
   s.license      = {
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.author       = 'Zendesk'
   s.platform     = :ios, '10.0'
   s.requires_arc = true
-  s.swift_version = '5.4.2'
+  s.swift_version = '5.5'
   s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/sdk_http_client_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ZendeskSDKHTTPClient.xcframework'
-  s.dependency 'ZendeskSDKLogger', '~> 0.4.1'
+  s.dependency 'ZendeskSDKLogger', '~> 0.4.2'
 end
