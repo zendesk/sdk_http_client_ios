@@ -6,6 +6,6 @@ framework module ZendeskSDKHTTPClient {
 }
 
 module ZendeskSDKHTTPClient.Swift {
-    header "ZendeskSDKHTTPClient-Swift.h"
-    requires objc
+  header "ZendeskSDKHTTPClient-Swift.h"
+  requires objc
 }
