@@ -1,7 +1,7 @@
 framework module ZendeskSDKHTTPClient {
   umbrella header "ZendeskSDKHTTPClient.h"
-
   export *
+
   module * { export * }
 }
 
