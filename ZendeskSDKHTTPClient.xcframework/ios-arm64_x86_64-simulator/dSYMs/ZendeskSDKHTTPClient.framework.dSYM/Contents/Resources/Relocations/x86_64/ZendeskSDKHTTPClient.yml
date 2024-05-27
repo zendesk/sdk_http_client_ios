@@ -6,7 +6,7 @@ relocations:
   - { offsetInCU: 0x69, offset: 0x553FF, size: 0x8, addend: 0x0, symName: _ZendeskSDKHTTPClientVersionNumber, symObjAddr: 0x38, symBinAddr: 0x10A98, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x5543C, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV11logCategory_WZ', symObjAddr: 0x0, symBinAddr: 0x25C0, symSize: 0x30 }
   - { offsetInCU: 0x4B, offset: 0x55460, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV12logNamespaceSSvpZ', symObjAddr: 0x15E0, symBinAddr: 0x15EB0, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0x5547A, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV11logCategorySSvpZ', symObjAddr: 0x6690, symBinAddr: 0x167B8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x5547A, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV11logCategorySSvpZ', symObjAddr: 0x6680, symBinAddr: 0x167B8, symSize: 0x0 }
   - { offsetInCU: 0x73, offset: 0x55488, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV11logCategory_WZ', symObjAddr: 0x0, symBinAddr: 0x25C0, symSize: 0x30 }
   - { offsetInCU: 0xE6, offset: 0x554FB, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV3log3fors6ResultOyAA0C8ResponseVyxGAA9HTTPErrorOGAM_tSeRzlF', symObjAddr: 0x30, symBinAddr: 0x25F0, symSize: 0xF90 }
   - { offsetInCU: 0x88F, offset: 0x55CA4, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient16HTTPClientLoggerV0A9SDKLogger8LoggableAadEP12logNamespaceSSvgZTW', symObjAddr: 0xFC0, symBinAddr: 0x3580, symSize: 0x30 }
@@ -128,7 +128,7 @@ relocations:
   - { offsetInCU: 0x184, offset: 0x582F7, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient17HTTPClientBuilderVwst', symObjAddr: 0x310, symBinAddr: 0x7210, symSize: 0x50 }
   - { offsetInCU: 0x198, offset: 0x5830B, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKHTTPClient17HTTPClientBuilderVMa', symObjAddr: 0x360, symBinAddr: 0x7260, symSize: 0xA }
   - { offsetInCU: 0x27, offset: 0x58425, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV20ZendeskSDKHTTPClientE16decodeJSONObject7forTypexxm_tKSeRzlF', symObjAddr: 0x0, symBinAddr: 0x7270, symSize: 0x90 }
-  - { offsetInCU: 0x4B, offset: 0x58449, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV20ZendeskSDKHTTPClientE23httpClientTempDirectoryAA3URLVvpZ', symObjAddr: 0x2138, symBinAddr: 0x167C8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x58449, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV20ZendeskSDKHTTPClientE23httpClientTempDirectoryAA3URLVvpZ', symObjAddr: 0x2128, symBinAddr: 0x167C8, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x58457, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV20ZendeskSDKHTTPClientE16decodeJSONObject7forTypexxm_tKSeRzlF', symObjAddr: 0x0, symBinAddr: 0x7270, symSize: 0x90 }
   - { offsetInCU: 0xC1, offset: 0x584BF, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV20ZendeskSDKHTTPClientE23httpClientTempDirectory_WZ', symObjAddr: 0x90, symBinAddr: 0x7300, symSize: 0xF0 }
   - { offsetInCU: 0xDB, offset: 0x584D9, size: 0x8, addend: 0x0, symName: ___swift_allocate_value_buffer, symObjAddr: 0x180, symBinAddr: 0x73F0, symSize: 0x40 }
