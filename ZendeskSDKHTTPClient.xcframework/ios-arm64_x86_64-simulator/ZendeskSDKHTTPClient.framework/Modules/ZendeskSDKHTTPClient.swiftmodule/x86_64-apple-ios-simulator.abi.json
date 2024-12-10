@@ -952,6 +952,46 @@
           },
           {
             "kind": "Var",
+            "name": "badRequest",
+            "printedName": "badRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> ZendeskSDKHTTPClient.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                    "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKHTTPClient.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "ZendeskSDKHTTPClient.HTTPError",
+                        "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKHTTPClient9HTTPErrorO10badRequestyA2CmF",
+            "mangledName": "$s20ZendeskSDKHTTPClient9HTTPErrorO10badRequestyA2CmF",
+            "moduleName": "ZendeskSDKHTTPClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
             "children": [
@@ -3456,7 +3496,7 @@
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
       "offset": 3097,
-      "length": 286,
+      "length": 426,
       "value": "\"\""
     },
     {
@@ -3472,6 +3512,13 @@
       "offset": 3295,
       "length": 48,
       "value": "\"canUserCreateMoreConversations is not enabled.\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 3401,
+      "length": 82,
+      "value": "\"HTTP Request doesn’t have a valid URL structure or contains invalid characters\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
@@ -3518,105 +3565,112 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2434,
+      "offset": 2490,
       "length": 63,
       "value": "\"Expected no data. Received response with data: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2552,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2543,
+      "offset": 2599,
       "length": 25,
       "value": "\"No response from server\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2635,
+      "offset": 2691,
       "length": 44,
       "value": "\"Failed to decode data with error: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2678,
+      "offset": 2734,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 2837,
       "length": 51,
       "value": "\"Unsuccessful call with status code: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2831,
+      "offset": 2887,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2963,
+      "offset": 3019,
       "length": 16,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 2978,
+      "offset": 3034,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3135,
       "length": 58,
       "value": "\"Request failed with error: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 3136,
+      "offset": 3192,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 3249,
       "length": 78,
       "value": "\"Multi-convo must be enabled to create more than one conversation for a user.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "StringLiteral",
-      "offset": 3340,
+      "offset": 3396,
       "length": 57,
       "value": "\"The user is not permitted to create more conversations.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
+      "kind": "StringLiteral",
+      "offset": 3499,
+      "length": 83,
+      "value": "\"The requested URL doesn’t have a valid structure or contains invalid characters\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "BooleanLiteral",
-      "offset": 3799,
+      "offset": 3984,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
       "kind": "BooleanLiteral",
-      "offset": 4321,
+      "offset": 4506,
       "length": 5,
       "value": "false"
     },
@@ -3665,35 +3719,35 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2426,
+      "offset": 2460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 3543,
+      "offset": 3354,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 14365,
+      "offset": 14037,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 17111,
+      "offset": 16783,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 17117,
+      "offset": 16789,
       "length": 3,
       "value": "300"
     },
