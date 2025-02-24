@@ -3334,189 +3334,189 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 682,
       "length": 24,
       "value": "\"com.zendesk.HTTPClient\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 736,
       "length": 6,
       "value": "\"HTTP\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 956,
       "length": 291,
       "value": "\"Outgoing HTTP Request:\n    URL: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1042,
       "length": 1,
       "value": "\",\n    METHOD TYPE: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 1110,
       "length": 7,
       "value": "\"\n    HEADERS: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1182,
       "length": 1,
       "value": "\",\n    BODY: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1237,
+      "offset": 1235,
       "length": 225,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1468,
+      "offset": 1466,
       "length": 376,
       "value": "\"HTTP Success Response:\n    REQUEST URL: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1580,
+      "offset": 1578,
       "length": 1,
       "value": "\",\n    STATUS CODE: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1660,
       "length": 1,
       "value": "\",\n    URL: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1743,
       "length": 1,
       "value": "\",\n    HEADERS: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
+      "offset": 1826,
       "length": 375,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1974,
+      "offset": 1972,
       "length": 48,
       "value": "\"Received response with data. Expected no data.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2080,
+      "offset": 2078,
       "length": 43,
       "value": "\"HTTP Request with failed with no response\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2213,
+      "offset": 2211,
       "length": 388,
       "value": "\"HTTP Response:\n    REQUEST URL: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2314,
       "length": 1,
       "value": "\",\n    STATUS CODE: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2393,
+      "offset": 2391,
       "length": 1,
       "value": "\",\n    FAILURE TYPE: Failure to decode HTTP Response data as type: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2504,
+      "offset": 2502,
       "length": 5,
       "value": "\"\n    ERROR: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2579,
       "length": 119,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2714,
+      "offset": 2712,
       "length": 199,
       "value": "\"HTTP Response:\n    REQUEST URL: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2817,
+      "offset": 2815,
       "length": 1,
       "value": "\",\n    FAILURE STATUS CODE: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2893,
+      "offset": 2891,
       "length": 85,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2992,
+      "offset": 2990,
       "length": 125,
       "value": "\"HTTP Request Network Failure:\n    ERROR: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 3097,
+      "offset": 3095,
       "length": 426,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 3185,
+      "offset": 3183,
       "length": 29,
       "value": "\"Multi-convo is not enabled.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3293,
       "length": 48,
       "value": "\"canUserCreateMoreConversations is not enabled.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
       "kind": "StringLiteral",
-      "offset": 3401,
+      "offset": 3399,
       "length": 82,
       "value": "\"HTTP Request doesn’t have a valid URL structure or contains invalid characters\""
     },
