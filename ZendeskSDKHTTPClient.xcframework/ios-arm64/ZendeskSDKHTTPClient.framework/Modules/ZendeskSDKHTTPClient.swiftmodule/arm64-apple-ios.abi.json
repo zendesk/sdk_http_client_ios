@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ZendeskSDKHTTPClient",
+    "printedName": "ZendeskSDKHTTPClient",
     "children": [
       {
         "kind": "Import",
@@ -528,6 +528,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -658,12 +672,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Foundation.Data?, Foundation.HTTPURLResponse, Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Foundation.Data?, Foundation.HTTPURLResponse, any Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.Data?, Foundation.HTTPURLResponse, Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                    "printedName": "(Foundation.Data?, Foundation.HTTPURLResponse, any Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -674,7 +688,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(data: Foundation.Data?, response: Foundation.HTTPURLResponse, error: Swift.Error)",
+                        "printedName": "(data: Foundation.Data?, response: Foundation.HTTPURLResponse, error: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -699,7 +713,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -818,12 +832,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                "printedName": "(ZendeskSDKHTTPClient.HTTPError.Type) -> (any Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
+                    "printedName": "(any Swift.Error) -> ZendeskSDKHTTPClient.HTTPError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -834,12 +848,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.Error)",
+                        "printedName": "(error: any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -1092,6 +1106,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LocalizedError",
@@ -2180,6 +2208,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2274,7 +2318,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "HTTPClient",
-                "printedName": "ZendeskSDKHTTPClient.HTTPClient",
+                "printedName": "any ZendeskSDKHTTPClient.HTTPClient",
                 "usr": "s:20ZendeskSDKHTTPClient10HTTPClientP"
               }
             ],
@@ -2297,6 +2341,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2480,6 +2540,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2721,6 +2795,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2958,6 +3046,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3023,7 +3125,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3045,6 +3147,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -3212,6 +3328,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3275,6 +3407,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3346,363 +3492,6 @@
       "value": "\"HTTP\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 956,
-      "length": 291,
-      "value": "\"Outgoing HTTP Request:\n    URL: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1042,
-      "length": 1,
-      "value": "\",\n    METHOD TYPE: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1110,
-      "length": 7,
-      "value": "\"\n    HEADERS: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1182,
-      "length": 1,
-      "value": "\",\n    BODY: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1235,
-      "length": 225,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 376,
-      "value": "\"HTTP Success Response:\n    REQUEST URL: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1578,
-      "length": 1,
-      "value": "\",\n    STATUS CODE: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1660,
-      "length": 1,
-      "value": "\",\n    URL: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 1,
-      "value": "\",\n    HEADERS: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1826,
-      "length": 375,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1972,
-      "length": 48,
-      "value": "\"Received response with data. Expected no data.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2078,
-      "length": 43,
-      "value": "\"HTTP Request with failed with no response\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2211,
-      "length": 388,
-      "value": "\"HTTP Response:\n    REQUEST URL: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2314,
-      "length": 1,
-      "value": "\",\n    STATUS CODE: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2391,
-      "length": 1,
-      "value": "\",\n    FAILURE TYPE: Failure to decode HTTP Response data as type: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2502,
-      "length": 5,
-      "value": "\"\n    ERROR: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2579,
-      "length": 119,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2712,
-      "length": 199,
-      "value": "\"HTTP Response:\n    REQUEST URL: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2815,
-      "length": 1,
-      "value": "\",\n    FAILURE STATUS CODE: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2891,
-      "length": 85,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2990,
-      "length": 125,
-      "value": "\"HTTP Request Network Failure:\n    ERROR: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3095,
-      "length": 426,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3183,
-      "length": 29,
-      "value": "\"Multi-convo is not enabled.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3293,
-      "length": 48,
-      "value": "\"canUserCreateMoreConversations is not enabled.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3399,
-      "length": 82,
-      "value": "\"HTTP Request doesn’t have a valid URL structure or contains invalid characters\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1286,
-      "length": 12,
-      "value": "\"User-Agent\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1345,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1408,
-      "length": 16,
-      "value": "\"Content-Length\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1524,
-      "length": 17,
-      "value": "\"Accept-Encoding\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1590,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2490,
-      "length": 63,
-      "value": "\"Expected no data. Received response with data: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2552,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2599,
-      "length": 25,
-      "value": "\"No response from server\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2691,
-      "length": 44,
-      "value": "\"Failed to decode data with error: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2734,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2837,
-      "length": 51,
-      "value": "\"Unsuccessful call with status code: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 2887,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3019,
-      "length": 16,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3034,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3135,
-      "length": 58,
-      "value": "\"Request failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3192,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3249,
-      "length": 78,
-      "value": "\"Multi-convo must be enabled to create more than one conversation for a user.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3396,
-      "length": 57,
-      "value": "\"The user is not permitted to create more conversations.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "StringLiteral",
-      "offset": 3499,
-      "length": 83,
-      "value": "\"The requested URL doesn’t have a valid structure or contains invalid characters\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3984,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Errors\/HTTPError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4506,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/URLSessionConfiguration+background.swift",
-      "kind": "StringLiteral",
-      "offset": 809,
-      "length": 40,
-      "value": "\"com.zendesk.conversationkit.background\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/URLSessionConfiguration+background.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1058,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1573,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1579,
-      "length": 3,
-      "value": "300"
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/Data+JSONDecode.swift",
       "kind": "StringLiteral",
       "offset": 896,
@@ -3710,60 +3499,11 @@
       "value": "\"zendesk\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/Data+JSONDecode.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1440,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2460,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3354,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
       "kind": "BooleanLiteral",
       "offset": 14037,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16783,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/DefaultHTTPClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16789,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/URL+URLRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1253,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/Extensions\/URL+URLRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1351,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/HTTPClient\/HTTPClient\/Source\/HTTPClientSessionTaskHandlerManager.swift",
